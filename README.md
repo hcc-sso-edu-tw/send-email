@@ -139,7 +139,6 @@ def main():
             body=html_content,
         )
 
-# ========== Usage Examples ==========
 
 if __name__ == "__main__":
     main()
