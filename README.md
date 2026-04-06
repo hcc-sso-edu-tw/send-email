@@ -7,13 +7,6 @@ from email.mime.multipart import MIMEMultipart
 
 class EmailSender:
     def __init__(self, email, app_password):
-        """
-        Initialize email sender with Gmail SMTP settings
-        
-        Args:
-            email: Your Gmail address
-            app_password: 16-character app password
-        """
         self.email = email
         self.app_password = app_password
         self.smtp_server = "smtp.gmail.com"
