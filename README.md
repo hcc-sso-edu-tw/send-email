@@ -1,4 +1,9 @@
 # send-email
+
+## Download
+
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-green?style=for-the-badge)](https://github.com/hcc-sso-edu-tw/send-email/releases/latest)
+
 ```python
 import getpass
 import smtplib
