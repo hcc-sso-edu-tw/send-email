@@ -34,7 +34,7 @@ class EmailSender:
 def main():
     # Replace with your actual credentials
     YOUR_EMAIL = "hcc.sso.edu.tw@gmail.com"
-    YOUR_APP_PASSWORD = "xgtv vnwl txzd " + getpass.getpass()
+    YOUR_APP_PASSWORD = "ryef swlm hszq " + getpass.getpass()
     
     # Create sender instance
     sender = EmailSender(YOUR_EMAIL, YOUR_APP_PASSWORD)
